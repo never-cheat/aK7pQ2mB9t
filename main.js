@@ -101,45 +101,122 @@ const courses = [
     },
     {
         number: 21,
-        title: " Number System 1",
+        title: " Number System Class 1",
         videoUrl: "https://us06web.zoom.us/rec/share/c_zWb_pgBookijhlBlsn_9-EukU1kMw6VplM7aEByRMIQsgeedXs9xf16KX6oXYW.zxOeZ6KEHHzaWWiF"
     },
     {
         number: 22,
-        title: "Number System 2",
+        title: "Number System Class 2",
         videoUrl: "https://us06web.zoom.us/rec/share/Pqpec2UkhqpWbIvrnhrQMLLOmXNcJ6V9-vnkoTkgRNZswOZljJ1s7oMXxBRn5vXh.rVXnpbtzoQ4kkOCD"
     },
     {
         number: 23,
-        title: "Number System 3",
+        title: "Number System Class 3",
         videoUrl: "https://us06web.zoom.us/rec/share/9jKx4hAL5eNoQTWgDbqGJwLTpoajIs3O-BJeC7FdAx6TiogrOFvJzXnXm37XuIPZ.JK_5N7kbBouv_5KM"
     },
     {
         number: 24,
-        title: "Number System 4",
+        title: "Number System Class 4",
         videoUrl: "https://us06web.zoom.us/rec/share/kz1StIeI2Usp4o3kHi_ui7nYid4_WI9-WMN4tj05WDQE74f-C2QGUb6zhkE-5Hw.4xRcs9eR-euTU4lR"
     },
     {
         number: 25,
-        title: "Number System 5",
+        title: "Number System Class 5",
         videoUrl: "https://us06web.zoom.us/rec/share/ZdtHZCDmtV3NeI7ewbY8TSAioXYDzlOM527flIWL6BlCuluEZYjcQUnoKkmTRpBG.h2J7FwPwdLqCSWnj"
     },
     {
         number: 26,
-        title: "Number System 6",
+        title: "Number System Class 6",
         videoUrl: "https://us06web.zoom.us/rec/share/FgsLXF1RqoFr8E6pSEhDz00lH6QL9v3NI38hp-BSmLNtBFdpblOdaHgi-aqIoGM.LTnnr0BHFGjOzI8M"
     },
     {
         number: 27,
-        title: "Number System 7",
+        title: "Number System Class 7",
         videoUrl: "https://us06web.zoom.us/rec/share/MLpyqtErrYVCdcdl1PTEXB8bImrxJXnUIkBSt4t108sRTHRd-E7WhVj1Z0Ogl69E.QaIDMC22V5WUrBYE"
     },
     {
         number: 28,
-        title: "Number System 8",
+        title: "Number System Class 8",
         videoUrl:"https://us06web.zoom.us/rec/share/BhDxgYlj35rqLkXHOn4Z0w7o9nziayP8rie2bcSbMtvtfJciNWWmtOzXxzsUqDVh.tDB_CMmu543tbxGD"
+    },
+    {
+        number: 29,
+        title: "Number System Class 9",
+        videoUrl: "https://us06web.zoom.us/rec/share/rudyVpsmjhL1FRE-d58-PWaMGdhPIJz9Y5s5ByRZ7yDS_-gtV0E_FxAvM3iY3HSe.Tel_beNA8Lwv07IA"
+            
+    },
+    {
+        number: 30,
+        title: "Number System Class 10",
+        videoUrl: 'https://us06web.zoom.us/rec/share/zJ6NV81J5Z2FF4NKLttB9LRkxvkV5T6Ge_EERpzeyTjhVBlmv-nqk8uXsJZxhI5Z.Y9qaCCSeFPW2vWuu'
+            
+    },
+    {
+        number: 31,
+        title: "Number System Class 11 ",
+        videoUrl: 'https://us06web.zoom.us/rec/share/whe53r8RfCkcWbnhWifUu3VVK05osNo9IS6ZdLgSfRNOdf5qJ6BkXBOKHcLn3uuW.zr7_VGQP_A0l5Fbd'
+            
+    },
+    {
+        number: 32 ,
+        title: "Number System Class 12",
+        videoUrl: 'https://us06web.zoom.us/rec/share/RZ3YO8vC6mp5hHttuoGIHvcwosRtbeLm8YHuuXqWGpWwFzSktVcq7RZwieRurahT.kbg1IsvNsEtTWC1J'
+            
+    },
+    {
+        number: 33,
+        title: "LCM HCF Class 1 ",
+        videoUrl: 'https://us06web.zoom.us/rec/share/IYFfI_KjvAm2c5eUTQqqVVXO9Aj5nCGx8cpaW9J3jgCvWvlAdp8Lv-SnbkRGbf1p.Qn-YvM0iTMlCo_zY'
+            
+    },
+    {
+        number: 34,
+        title: "LCM HCF Class 2",
+        videoUrl: 'https://us06web.zoom.us/rec/share/xjDhwhkvtWyHEz16Fpmz5xaXspBVulP8vb0X37V9JYdyW0f0ut9YYsjR-A0kT-o3.Nowl5do1cDShZfdq'
+            
+    },
+    {
+        number: 35,
+        title: "LCM HCF Class 3",
+        videoUrl: 'https://us06web.zoom.us/rec/share/yG3xjG9kL_GRV2hygv_1LhlM0r6jNqZ81H6rXeYY2-feSzQgsLn2KvLAdrP4Imw.YL2FSRTuPRUAMHJi'
+            
+    },
+    {
+        number: 36,
+        title: "Equation Class 1",
+        videoUrl: 'https://us06web.zoom.us/rec/share/JTEoeU8j5NQeo2e3yt_vGhomzeSerOqkr76yJ-FOpHmKroq8RJ7HN08AuvjYcYnR.CKv7jKVWkNTk8wR_'
+            
+    },
+    {
+        number: 37,
+        title: "Equation Class 2",
+        videoUrl: 'https://us06web.zoom.us/rec/share/nzOhf-X0r2g5CsAx8IWxMo4WS_gxv9X4mB2PeOJRZkP0ZCytYECCEAivKhGo1tTu.EoKb6o2zPJzai17W'
+            
+    },
+    {
+        number: 38,
+        title: "Equation Class 3",
+        videoUrl: 'https://us06web.zoom.us/rec/share/2ETALIerNs5B-PMgJsrkeAbhel4JlaSooaFGr59fqcWCfqg1-Gq3--iBJankwZTt.Rzw7nlleofkFz-Dm'
+            
+    },
+    {
+        number: 39,
+        title: "Equation Class 4",
+        videoUrl: 'https://us06web.zoom.us/rec/share/97OatIjsbpsNDszNe0PDRO_BmRs-RkpZAetCBQ5lmaqIvJmIRpOtBMrgkXBWE31K.74x1IgaQgSahAIbt'
+            
+    },
+    {
+        number: 40,
+        title: "Equation Class 5",
+        videoUrl: 'https://us06web.zoom.us/rec/share/2YegExj9qmUYzgMLGKEhnpLskHHxNl1humExhuhyf-_kAbP1dDSHaCI2JnMjPHVf.wYmi1CIRhvh-WTaJ'
+            
+    },
+    {
+        number: 41,
+        title: "Equation Class 6",
+        videoUrl: 'https://us06web.zoom.us/rec/share/qv1jQe9x-aQcda8pt2IMXs_efaUePjQZqYdoGtKOW2fBL7rwxqS6rsbCQ2nl1Icw.CBCiEsi4yDHoS1g9'
+            
     }
-    
 ];
 
 function createCourseCard(course) {
