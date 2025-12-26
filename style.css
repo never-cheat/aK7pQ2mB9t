@@ -39,7 +39,7 @@ body {
 }
 
 .search-container {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .search-input {
@@ -57,6 +57,38 @@ body {
     outline: none;
     box-shadow: 0 5px 30px rgba(76, 0, 176, 0.3);
     transform: translateY(-2px);
+}
+
+.filter-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    color: #4c00b0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 0, 176, 0.2);
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
 }
 
 .stats-container {
@@ -90,18 +122,17 @@ body {
 }
 
 .course-grid {
-    display: flex;
-    flex-direction: column;   /* one item per row */
-    gap: 12px;                /* minimum space between items */
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
 }
-
 
 .course-card {
     background: white;
-    border-radius: 12px;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     animation: fadeIn 0.5s ease;
 }
@@ -124,8 +155,18 @@ body {
 
 .course-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 14px;
+    padding: 20px;
     color: white;
+}
+
+.course-category {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
 .course-number {
@@ -141,15 +182,22 @@ body {
 }
 
 .course-body {
-    padding: 14px;
+    padding: 20px;
 }
 
 .video-link {
-    padding: 10px 18px;
-    font-size: 14px;
-    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
-
 
 .video-link:hover {
     transform: translateY(-2px);
@@ -202,5 +250,14 @@ body {
 
     .stats-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .filter-container {
+        gap: 8px;
+    }
+
+    .filter-btn {
+        padding: 10px 16px;
+        font-size: 13px;
     }
 }
